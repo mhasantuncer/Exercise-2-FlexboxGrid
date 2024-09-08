@@ -1,0 +1,44 @@
+/** Not allowed to change this initial CSS code **/
+body {
+  background: url(../img/12_col.gif) center top repeat-y;
+  background-size: 90%;
+}
+/*************************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+}
+html,
+body {
+  border: none;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  height: 200px;
+}
+
+.flex-container {
+  display: flex;
+  height: 100px;
+  background: #f5f5dd;
+  margin: 3% 6%;
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+button {
+  padding: 0 0.7rem;
+}
+
+.button-4 {
+  margin-left: auto;
+}
